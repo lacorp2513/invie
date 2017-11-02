@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Precios de tus mejores guitarras</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/invie.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+  </head>
+  <body>
+
+    <header id="header" class="header background"> <!--header-->
+      <div class="contenedor">
+
+        <figure class="logotipo">
+          <img src="./images/invie.png" width="186" height="60" alt="Invie - Logo">
+        </figure>
+        <nav class="menu"> <!--menu-->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#guitarras">Guitarras</a>
+            </li>
+            <li>
+              <a href="precios.html">Precios</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="contenedor">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Invie classic</td>
+            <td>$10000</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident praesentium cumque, unde, qui a perspiciatis dolor incidunt laudantium consequuntur facere mollitia voluptate accusantium, beatae quaerat deleniti maxime obcaecati error!</td>
+          </tr>
+          <tr>
+            <td>Invie classic</td>
+            <td>$10000</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident praesentium cumque, unde, qui a perspiciatis dolor incidunt laudantium consequuntur facere mollitia voluptate accusantium, beatae quaerat deleniti maxime obcaecati error!</td>
+          </tr>
+          <tr>
+            <td>Invie classic</td>
+            <td>$10000</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur provident praesentium cumque, unde, qui a perspiciatis dolor incidunt laudantium consequuntur facere mollitia voluptate accusantium, beatae quaerat deleniti maxime obcaecati error!</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="footer"> <!-- footer -->
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="./images/invie-white.png" alt="logotipo blanco">
+          <a href="tel:+522381119229"><strong>Telefono</strong> <span>2381119229</span></a>
+          <a href="mailto:contacto@gmail.com"><strong>E-mail</strong><span>contacto@gmail.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div col2>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" rows="5" cols="30"></textarea>
+            <input type="submit" value="Enviar" class="button">
+          </div>
+        </form>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
